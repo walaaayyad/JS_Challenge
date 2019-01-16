@@ -77,7 +77,6 @@ Used Source:
 https://stackoverflow.com/questions/4878756/how-to-capitalize-first-letter-of-each-word-like-a-2-word-city
 [read about Unicode]=> https://dmitripavlutin.com/what-every-javascript-developer-should-know-about-unicode/
                        https://medium.com/webisbeautiful/understanding-utf-in-javascript-539f77574eaa
-[read about charAt]=> https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/charAt
-[charAt]=> https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/charAt
-[BMP]=> https://en.wikipedia.org/wiki/Plane_%28Unicode%29
+[read about charAt()]=> https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/charAt
+[read about BMP]=> https://en.wikipedia.org/wiki/Plane_%28Unicode%29
 */
