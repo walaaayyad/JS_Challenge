@@ -26,3 +26,16 @@ function factorial(n) {
     return (n<2)? 1 : factorial(n-1)*n;
 }
 ```
+3- Function to **print each vowel in STRING on a new line then each consonant.**
+```
+function vowelsAndConsonants(s) {
+    let constants=[];
+    let vowels=['a','e','o','u','i']
+    s.split('').forEach(i => {
+        vowels.includes(i) ? 
+        console.log(i):
+        constants.push(i);
+    });
+    constants.forEach(x => console.log(x));
+}
+```
