@@ -8,7 +8,7 @@
 3. Discreption Section 
 
 # My Answers to some js-code-challenge
-1- Function to return the second largest number in the array.
+1- Function to return **the second largest number in the array.**
 ```
 function getSecondLargest(nums) {
     let desNums;
@@ -20,7 +20,7 @@ function getSecondLargest(nums) {
     return desNums[1];
 }
 ```
-2- Function to return the factorial number.
+2- Function to return **the factorial number.**
 ```
 function factorial(n) {
     return (n<2)? 1 : factorial(n-1)*n;
