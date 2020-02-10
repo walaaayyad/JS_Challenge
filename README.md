@@ -39,3 +39,16 @@ function vowelsAndConsonants(s) {
     constants.forEach(x => console.log(x));
 }
 ```
+4- Function to **reverse string** using the split,reverse,and join methods.
+```
+function reverseString(s) {
+    try{
+        let str= s.split("").reverse().join("");
+        console.log(str);
+    }
+    catch(e){
+        console.log(e.message);
+        console.log(s);
+    }
+};
+```
