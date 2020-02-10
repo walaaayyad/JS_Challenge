@@ -20,4 +20,9 @@ function getSecondLargest(nums) {
     return desNums[1];
 }
 ```
-
+2- Function to return the factorial number.
+```
+function factorial(n) {
+    return (n<2)? 1 : factorial(n-1)*n;
+}
+```
