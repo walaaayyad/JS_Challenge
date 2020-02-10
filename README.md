@@ -9,7 +9,7 @@
 
 # My Answers to some js-code-challenge
 1- Function to return the second largest number in the array.
-`
+```
 function getSecondLargest(nums) {
     let desNums;
     let removeDuplicate;
@@ -18,5 +18,6 @@ function getSecondLargest(nums) {
     desNums = removeDuplicate.sort((a,b)=> b-a);
     
     return desNums[1];
-}`
+}
+```
 
