@@ -8,7 +8,7 @@
 3. Discreption Section 
 
 # My Answers to some js-code-challenge
-1- Function to return **the second largest number in the array.**
+1- Function to return **the second largest number in the array** from [hackerrank](https://www.hackerrank.com/)
 ```
 function getSecondLargest(nums) {
     let desNums;
@@ -20,13 +20,13 @@ function getSecondLargest(nums) {
     return desNums[1];
 }
 ```
-2- Function to return **the factorial number.**
+2- Function to return **the factorial number.** from [hackerrank](https://www.hackerrank.com/)
 ```
 function factorial(n) {
     return (n<2)? 1 : factorial(n-1)*n;
 }
 ```
-3- Function to **print each vowel in STRING on a new line then each consonant.**
+3- Function to **print each vowel in a STRING on a new line then each consonant.** from [hackerrank](https://www.hackerrank.com/)
 ```
 function vowelsAndConsonants(s) {
     let constants=[];
@@ -39,7 +39,7 @@ function vowelsAndConsonants(s) {
     constants.forEach(x => console.log(x));
 }
 ```
-4- Function to **reverse string** using the split,reverse,and join methods.
+4- Function to **reverse string** using the split,reverse,and join methods. from [hackerrank](https://www.hackerrank.com/)
 ```
 function reverseString(s) {
     try{
