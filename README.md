@@ -52,3 +52,12 @@ function reverseString(s) {
     }
 };
 ```
+5- Function has two parameters must return **an Object modeling a rectangle**. from [hackerrank](https://www.hackerrank.com/)
+```
+function Rectangle(a, b) {
+   this.length = a;
+   this.width = b;
+   this.perimeter = 2*(a+b);
+   this.area= a*b;
+}
+```
