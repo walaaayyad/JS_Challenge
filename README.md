@@ -62,8 +62,8 @@ function Rectangle(a, b) {
 }
 ```
 6- Join the elements in 'array1' with the elements in 'array2' respectively. **My Question**
-   A- put the result in a new array.
-   B- Print the value of it
+  - A- put the result in a new array.
+  - B- Print the value of it
 ```
 [].concat.apply([],array1.map((i,index)=> [i + array2[index]]));
 ```
