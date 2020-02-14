@@ -61,3 +61,7 @@ function Rectangle(a, b) {
    this.area= a*b;
 }
 ```
+6- Join the elements in 'array1' with the elements in 'array2' respectively & put the result in a new array.
+```
+[].concat.apply([],array1.map((i,index)=> [i + array2[index]]));
+```
