@@ -71,7 +71,7 @@ function Rectangle(a, b) {
 array1.forEach((i,index)=> console.log(i+ array2[index]));
 ```
 7- Function has array of objects as input, every object has two properties x & y.
-  **Count the times which x.value == y.value** 
+  **Count the times which x.value == y.value.** from [hackerrank](https://www.hackerrank.com/) 
 ```
 function(objects) {
 const count= objects.filter(i => i.x == i.y).length;
