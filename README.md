@@ -89,7 +89,6 @@ let newNums = nums.map(i => (i%2==0) ? i*2 : i*3);
 ```
 function getDayName(dateString) {
     let dayName;
-    // Write your code here
     let date= new Date(dateString);
     dayName= date.getDay();
        switch(dayName){
