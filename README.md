@@ -78,3 +78,38 @@ const count= objects.filter(i => i.x == i.y).length;
 return count;
 }
 ```
+8- Modify and return the array so that **all even elements are doubled and all odd elements are tripled**. from [hackerrank](https://www.hackerrank.com/)
+```
+function modifyArray(nums) {
+let newNums = nums.map(i => (i%2==0) ? i*2 : i*3);
+   return newNums;
+}
+```
+9-Function to **get the name of the day**. from [hackerrank](https://www.hackerrank.com/) 
+```
+function getDayName(dateString) {
+    let dayName;
+    // Write your code here
+    let date= new Date(dateString);
+    dayName= date.getDay();
+       switch(dayName){
+            case 0: dayName= 'Sunday';
+                break;
+            case 1: dayName= 'Monday';
+                break;
+            case 2: dayName= 'Tuesday';
+                break;
+            case 3: dayName= 'Wednesday';
+              break;
+            case 4: dayName= 'Thursday';
+              break;
+            case 5: dayName= 'Friday';
+              break;
+            case 6: dayName= 'Saturday';
+              break;
+            default: dayName;
+              break;
+       }
+    return dayName;
+}
+```
